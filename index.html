@@ -20,19 +20,19 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     </head>
 
-    <body class="c-white">
+    <body>
         <div class="flex fw-wrap">
             <div class="w-100per h-adapt bg-dark-blue flex">
-                <aside class="flex fd-column jc-between w-250px bg-black p-1 pb-05">
+                <aside class="flex fd-column jc-between w-250px bg-black p-1 pb-05 c-gray">
                     <!-- ***Top*** -->
                     <div>
                         <!-- Logo -->
                         <div class="pb-1">
                             <!-- Visible -->
-                            <img src="./img/logo.svg" alt="Logo" class="w-70per logo">
+                            <img src="./img/logo.svg" alt="Logo" class="w-70per logo" id="logo_desktop">
 
                             <!-- Invisible -->
-                            <img src="./img/logo-small.svg" alt="Logo_Small" class="display-none">
+                            <img src="./img/logo-small.svg" alt="Logo_Small" class="display-none logo" id="logo_mobile">
                         </div>
 
                         <!-- Nav -->
@@ -40,19 +40,19 @@
                             <!-- Home -->
                             <div class="flex ai-center p-1-0">
                                 <img src="./img/home.svg" alt="Home">
-                                <span>Home</span>
+                                <span class="pl-025">Home</span>
                             </div>
 
                             <!-- Search -->
                             <div class="flex ai-center pb-1">
                                 <img src="./img/search.svg" alt="Search">
-                                <span>Cerca</span>
+                                <span class="pl-025">Cerca</span>
                             </div>
 
                             <!-- Library -->
                             <div class="flex ai-center pb-1">
                                 <img src="./img/libreria.svg" alt="Library">
-                                <span>La tua libreria</span>
+                                <span class="pl-025">La tua libreria</span>
                             </div>
                         </nav>
 
@@ -64,7 +64,7 @@
                                 <div class="flex ai-center pt-05" id="new_playlist">
                                     <i class="fa-sharp fa-solid fa-plus"></i>
 
-                                    <p>Crea Playlist</p>
+                                    <p class="pl-025">Crea Playlist</p>
                                 </div>
 
                                 <p class="p-1-0">Nome Playlist</p>
@@ -83,15 +83,15 @@
                         <!-- Install -->
                         <div class="flex ai-center" id="download">
                             <img src="./img/download.svg" alt="Download">
-                            <span>Installa app</span>
+                            <span class="pl-025">Installa app</span>
                         </div>
 
                         <hr class="m-05-0">
 
                         <!-- Account -->
                         <div class="flex ai-center" id="account">
-                            <img src="./img/profile.svg" alt="Profile">
-                            <p>
+                            <img src="./img/profile.svg" alt="Profile" id="user">
+                            <p class="pl-025 c-white">
                                 <strong>John Doe</strong>
                             </p>
                         </div>

@@ -16,6 +16,10 @@
 
 .bg-gray {background-color: aqua;}
 
+/* ------ Color ------ */
+
+.c-gray {color: #4d4d4d;}
+
 /* ------ Dimension ------ */
 
 .h-100px {height: 100px;}
@@ -32,7 +36,9 @@ aside img {
     display: block;
 }
 
-aside nav img:not(.logo) {height: 2rem;}
+aside nav img:not(#logo_desktop) {height: 2rem;}
+
+aside img:not(.logo, #user) {filter: opacity(0.5);}
 
 #new_playlist i {
     padding: 0.5rem 0.60rem;
@@ -42,6 +48,8 @@ aside nav img:not(.logo) {height: 2rem;}
 }
 
 #download img {height: 1rem;}
+
+aside hr {border-color: #4d4d4d;}
 
 #account img {
     height: 2rem;
