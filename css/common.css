@@ -16,11 +16,25 @@ ul {list-style-type: none;}
 
 .p-1 {padding: 1rem;}
 
+.p-1-0 {padding: 1rem 0;}
+
+/* Padding-top */
+
+.pt-1 {padding-top: 1rem;}
+
+.pt-05 {padding-top: 0.5rem;}
+
+/* Padding-bottom */
+
+.pb-1 {padding-bottom: 1rem;}
+
+.pb-05 {padding-bottom: 0.5rem;}
+
 /* ------ Margin ------ */
 
 .m-center {margin: 0 auto;}
 
-
+.m-05-0 {margin: 0.5rem 0;}
 
 /* ------ Border ------ */
 

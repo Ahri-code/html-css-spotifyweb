@@ -34,6 +34,13 @@ aside img {
 
 aside nav img:not(.logo) {height: 2rem;}
 
+#new_playlist i {
+    padding: 0.5rem 0.60rem;
+    color: black;
+    background-color: #a3a3a3;
+    font-size: 1.5rem;
+}
+
 #download img {height: 1rem;}
 
 #account img {
