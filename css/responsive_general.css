@@ -1,0 +1,21 @@
+/* ------------------ */
+/* -----VERTICAL----- */
+/* ------------------ */
+
+@media screen and (max-height: 800px) {
+    
+    #playlist {
+        height: 100px;
+        overflow-y: scroll;
+    }
+
+}
+
+@media screen and (max-height: 550px) {
+    
+    aside {
+        min-height: 100px;
+        overflow-y: hidden;
+    }
+
+}
