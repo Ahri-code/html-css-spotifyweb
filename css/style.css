@@ -3,9 +3,19 @@
 /* --------------- */
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.img-d-b {display: block;}
+/* ------- Background ------- */
+
+.bg-dark-blue {background-color: #141922;}
+
+.bg-gray {background-color: aqua;}
+
+/* ------ Dimension ------ */
+
+.h-min-100px {min-height: 100px;}
+
+.h-adapt {height: calc(100vh - 100px);}
+
+.w-min-250 {min-width: 250px;}
