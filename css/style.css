@@ -6,6 +6,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+/* ----------------- */
+/* -----GENERAL----- */
+/* ----------------- */
+
 /* ------- Background ------- */
 
 .bg-dark-blue {background-color: #141922;}
@@ -14,8 +18,27 @@
 
 /* ------ Dimension ------ */
 
-.h-min-100px {min-height: 100px;}
+.h-100px {height: 100px;}
 
 .h-adapt {height: calc(100vh - 100px);}
 
-.w-min-250 {min-width: 250px;}
+.w-250px {width: 250px;}
+
+/* --------------- */
+/* -----Aside----- */
+/* --------------- */
+
+aside img {
+    display: block;
+}
+
+aside nav img:not(.logo) {height: 2rem;}
+
+#download img {height: 1rem;}
+
+#account img {
+    height: 2rem;
+    width: 2rem;
+    background-color: #808080;
+    border-radius: 50%;
+}

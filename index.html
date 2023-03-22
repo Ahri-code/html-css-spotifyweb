@@ -21,25 +21,103 @@
     </head>
 
     <body class="c-white">
-        <div class="w-100per h-adapt bg-dark-blue flex">
-            <header class="w-min-250 bg-black">
+        <div class="flex fw-wrap">
+            <div class="w-100per h-adapt bg-dark-blue flex">
+                <aside class="w-250px bg-black p-1">
+                    <!-- ***Top*** -->
+                    <div>
+                        <!-- Logo -->
+                        <div>
+                            <!-- Visible -->
+                            <img src="./img/logo.svg" alt="Logo" class="w-70per logo">
 
-            </header>
+                            <!-- Invisible -->
+                            <img src="./img/logo-small.svg" alt="Logo_Small" class="display-none">
+                        </div>
 
-            <main class="w-100per">
-                <!-- Upgrade -->
+                        <!-- Nav -->
+                        <nav>
+                            <!-- Home -->
+                            <div class="flex ai-center">
+                                <img src="./img/home.svg" alt="Home">
+                                <span>Home</span>
+                            </div>
+
+                            <!-- Search -->
+                            <div class="flex ai-center">
+                                <img src="./img/search.svg" alt="Search">
+                                <span>Cerca</span>
+                            </div>
+
+                            <!-- Library -->
+                            <div class="flex ai-center">
+                                <img src="./img/libreria.svg" alt="Library">
+                                <span>La tua libreria</span>
+                            </div>
+                        </nav>
+
+                        <!-- Playlist -->
+                        <div>
+                            <h4>PLAYLIST</h4>
+                            <div>
+                                <!-- New Playlist -->
+                                <div class="flex ai-center" id="new_playlist">
+                                    <i class="fa-sharp fa-solid fa-plus"></i>
+
+                                    <p>Crea Playlist</p>
+                                </div>
+
+                                <p>Nome Playlist</p>
+                                <p>Nome Playlist</p>
+                                <p>Nome Playlist</p>
+                                <p>Nome Playlist</p>
+                                <p>Nome Playlist</p>
+                                <p>Nome Playlist</p>
+                                <p>Nome Playlist</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ***Bottom*** -->
+                    <div>
+                        <!-- Install -->
+                        <div class="flex ai-center" id="download">
+                            <img src="./img/download.svg" alt="Download">
+                            <span>Installa app</span>
+                        </div>
+
+                        <hr>
+
+                        <!-- Account -->
+                        <div class="flex ai-center" id="account">
+                            <img src="./img/profile.svg" alt="Profile">
+                            <p>
+                                <strong>John Doe</strong>
+                            </p>
+                        </div>
+                    </div>
+                </aside>
                 <div>
+                    <header>
+                    
+                    </header>
 
-                </div>
-                <!-- Main -->
-                <div>
+                    <main class="w-100per">
+                        <!-- Upgrade -->
+                        <div>
 
+                        </div>
+                        <!-- Main -->
+                        <div>
+
+                        </div>
+                    </main>
                 </div>
-            </main>
+            </div>
+
+            <footer class="h-100px bg-gray w-100per z-top">
+                
+            </footer>
         </div>
-
-        <footer class="h-min-100px bg-gray w-100per">
-            
-        </footer>
     </body>
 </html>
