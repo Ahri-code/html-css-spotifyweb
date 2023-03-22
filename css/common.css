@@ -16,7 +16,11 @@ ul {list-style-type: none;}
 
 .p-1 {padding: 1rem;}
 
+.p-05 {padding: 0.5rem;}
+
 .p-1-0 {padding: 1rem 0;}
+
+.p-05-1 {padding: 0.5rem 1rem;}
 
 /* Padding-top */
 
@@ -87,6 +91,8 @@ ul {list-style-type: none;}
 .bg-black {background-color: black;}
 
 .bg-white {background-color: white;}
+
+.bg-none {background-color: rgba(0, 0, 0, 0);}
 
 /* ------ Position ------ */
 

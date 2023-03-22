@@ -16,6 +16,8 @@
 
 .bg-gray {background-color: aqua;}
 
+.bg-semitransparent {background-color: rgba(8, 11, 18, 0.7);}
+
 /* ------ Color ------ */
 
 .c-gray {color: #4d4d4d;}
@@ -31,6 +33,12 @@
 /* ------ Scroll ------ */
 
 .scroll {overflow-y: scroll;}
+
+/* ------ Border ------ */
+
+.br-30px {border-radius: 30px;}
+
+.bc-white {border-color: white;}
 
 /* --------------- */
 /* -----Aside----- */
