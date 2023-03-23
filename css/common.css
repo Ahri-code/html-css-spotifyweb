@@ -42,6 +42,10 @@ ul {list-style-type: none;}
 
 .pl-025 {padding-left: 0.5rem;}
 
+/* Padding-right */
+
+.pr-1 {padding-right: 1rem;}
+
 /* ------ Margin ------ */
 
 .m-center {margin: 0 auto;}

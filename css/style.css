@@ -14,7 +14,11 @@
 
 .bg-dark-blue {background-color: #141922;}
 
-.bg-gray {background-color: aqua;}
+.bg-gray {background-color: #282828;}
+
+.bg-light-gray {background-color: #4c4c4c;}
+
+.bg-dark-white {background-color: #bbbbbb;}
 
 .bg-semitransparent {background-color: rgba(8, 11, 18, 0.7);}
 
@@ -29,6 +33,8 @@
 .h-adapt {height: calc(100vh - 100px);}
 
 .h-adapt200 {height: calc(100vh - 200px);}
+
+.h-5px {height: 5px;}
 
 .w-250px {width: 250px;}
 
@@ -45,6 +51,8 @@
 .br-30px {border-radius: 30px;}
 
 .bc-white {border-color: white;}
+
+/* ------ Box-shadow ------ */
 
 /* --------------- */
 /* -----Aside----- */
@@ -113,3 +121,42 @@ aside hr {border-color: #4d4d4d;}
     background-image: url(../img/einaudi.jpeg);
     border-radius: 50%;
 }
+
+/* ---------------- */
+/* -----FOOTER----- */
+/* ---------------- */
+
+/* Left */
+
+footer img {
+    height: 3rem;
+    margin-right: 0.5rem;
+}
+
+#left p {
+    font-size: 12px;
+    margin-top: -0.1rem;
+}
+
+#left i {padding-left: 1rem;}
+
+#save {padding-left: 1rem;}
+
+/* Center */
+
+#center i:not(#play) {font-size: 1.25rem;}
+
+#play {font-size: 2rem;}
+
+.time {
+    font-size: 10px;
+    font-weight: 500;
+}
+
+/* Right */
+
+#no-volume {display: none;}
+
+.volume:hover #low-volume {display: none;}
+
+.volume:hover #no-volume {display: block;}
