@@ -30,7 +30,11 @@
 
 /* ------ Dimension ------ */
 
+.h-2 {height: 2rem;}
+
 .h-100px {height: 100px;}
+
+.h-100per {height: 100%;}
 
 .h-adapt {height: calc(100vh - 100px);}
 
@@ -43,6 +47,8 @@
 .w-15per {width: 15.5%;}
 
 .w-adapt {width: calc(100% - 250px);}
+
+.w-5px {width: 5px;}
 
 /* ------ Scroll ------ */
 
@@ -63,6 +69,10 @@
 /* ------ Margin ------ */
 
 .mt-small {margin-top: 0.25rem;}
+
+.ml-1 {margin-left: -1rem;}
+
+.mr-1 {margin-right: calc(1rem - 5px);}
 
 /* ------ Grid ------ */
 
@@ -88,6 +98,23 @@ aside nav img:not(#logo_desktop) {height: 2rem;}
 
 aside img:not(.logo, #user) {filter: opacity(0.5);}
 
+.white-hover:hover img:not(.logo, #user) {
+    filter: opacity(1);
+}
+
+.white-hover:hover {
+    color: white;
+}
+
+.green {height: 0px;}
+
+.white-hover:hover .green {
+    display: block;
+    height: 2rem;
+    transition-timing-function: ease-out;
+    transition: height 500ms;
+}
+
 #new_playlist i {
     padding: 0.5rem 0.60rem;
     color: black;
@@ -110,7 +137,13 @@ aside hr {border-color: #4d4d4d;}
 /* -----HEADER----- */
 /* ---------------- */
 
-#header button {margin-right: 1rem;}
+#header button {margin-right: 1.5rem;}
+
+#header button:hover {
+    transform: scale(1.1);
+    transition-timing-function: ease-out;
+    transition: transform 500ms;
+}
 
 /* -------------- */
 /* -----MAIN----- */
