@@ -28,7 +28,7 @@
 
 .h-adapt {height: calc(100vh - 100px);}
 
-.h-adapt200 {height: calc(100vh -200px);}
+.h-adapt200 {height: calc(100vh - 200px);}
 
 .w-250px {width: 250px;}
 
