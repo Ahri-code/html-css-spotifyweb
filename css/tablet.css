@@ -2,15 +2,19 @@
 /* -----TABLET----- */
 /* ---------------- */
 
-@media screen and (min-width: 759px) and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 992px) {
     
-    #recently-played > div{
-        max-width: 800px;
+    #recently-played > div {
         flex-wrap: wrap;
         gap: 0.5rem;
     }
 
     #recently-played > div >div{
+        width: 22%;
+        margin-right: 1vw;
+    }
+
+    .suggestions > div >div{
         width: 22%;
         margin-right: 1vw;
     }

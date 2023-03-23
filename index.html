@@ -23,8 +23,8 @@
 
     <body>
         <div>
-            <div class="w-100per h-adapt bg-dark-blue flex">
-                <aside class="flex fd-column jc-between w-250px bg-black p-1 pb-05 c-gray">
+            <div class="w-100per h-adapt bg-dark-blue flex" id="no-footer">
+                <aside class="flex fd-column jc-between w-250px bg-black p-1 pb-05 c-gray" id="aside">
                     <!-- ***Top*** -->
                     <div>
                         <!-- Logo -->
@@ -58,7 +58,7 @@
                         </nav>
 
                         <!-- Playlist -->
-                        <div class="pt-1">
+                        <div class="pt-1" id="playlist-container">
                             <h4>PLAYLIST</h4>
                             <div id="playlist">
                                 <!-- New Playlist -->
@@ -80,7 +80,7 @@
                     </div>
 
                     <!-- ***Bottom*** -->
-                    <div class="pt-05">
+                    <div class="pt-05" id="aside-bottom">
                         <!-- Install -->
                         <div class="flex ai-center" id="download">
                             <img src="./img/download.svg" alt="Download">
@@ -98,8 +98,8 @@
                         </div>
                     </div>
                 </aside>
-                <div class="w-100per">
-                    <header class="w-100per h-100px flex jc-end ai-center bg-semitransparent p-05 fixed w-adapt">
+                <div class="w-adapt">
+                    <header class="w-adapt h-100px flex jc-end ai-center bg-semitransparent p-05 fixed" id="header">
                         <button class="p-05-1 br-30px bg-none c-white bc-white">EFFETTUA L'UPGRADE</button>
                     </header>
 
@@ -275,7 +275,7 @@
                             </section>
 
                             <!-- Made for you -->
-                            <section class="pt-1 pb-1">
+                            <section class="pt-1 pb-1 suggestions">
                                 <h2>
                                     Creato per John Doe
                                 </h2>
@@ -310,7 +310,7 @@
                             </section>
 
                             <!-- Artist -->
-                            <section class="pt-1 pb-1">
+                            <section class="pt-1 pb-1 suggestions">
                                 <h2>
                                     Artisti più popolari
                                 </h2>
@@ -365,7 +365,7 @@
                             </div>
                         </div>
 
-                        <div class="flex w-30per" id="save">
+                        <div class="flex w-30per pl-1" id="save">
                             <i class="fa-regular fa-heart c-gray"></i>
 
                             <i class="fa-regular fa-folder c-gray"></i>
@@ -380,7 +380,7 @@
                 <!-- Center -->
                 <div class="w-40per flex fd-column ai-center" id="center">
                     <!-- Top -->
-                    <div class="flex jc-between ai-center w-50per c-white">
+                    <div class="flex jc-between ai-center c-white gap-1" id="buttons">
                         <i class="fa-solid fa-shuffle"></i>
 
                         <i class="fa-solid fa-backward-step"></i>
@@ -407,19 +407,23 @@
                 </div>
 
                 <!-- Right -->
-                <div class="w-30per c-white flex jc-end ai-center">
-                    <i class="fa-solid fa-list pr-1"></i>
-                    
-                    <i class="fa-solid fa-desktop pr-1"></i>
-                    <div class="volume">
-                        <i class="fa-solid fa-volume-low pr-1" id="low-volume"></i>
-
-                        <i class="fa-solid fa-volume-xmark pr-1" id="no-volume"></i>
+                <div class="w-30per c-white flex jc-end ai-center" id="right">
+                    <div id="other">
+                        <i class="fa-solid fa-list pr-1"></i>
+                        
+                        <i class="fa-solid fa-desktop pr-1"></i>
                     </div>
+                    <div class="flex w-30per ai-center">
+                        <div class="volume">
+                            <i class="fa-solid fa-volume-low pr-1" id="low-volume"></i>
 
-                    <div class="w-30per h-5px bg-light-gray br-30px">
-                        <div class="w-30per h-5px bg-dark-white br-30px">
+                            <i class="fa-solid fa-volume-xmark pr-1" id="no-volume"></i>
+                        </div>
 
+                        <div class="w-100per h-5px bg-light-gray br-30px">
+                            <div class="w-30per h-5px bg-dark-white br-30px">
+
+                            </div>
                         </div>
                     </div>
                 </div>

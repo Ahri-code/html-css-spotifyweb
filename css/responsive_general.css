@@ -19,3 +19,9 @@
     }
 
 }
+
+@media screen and (min-height: 993px) {
+    
+    #buttons {max-width: 160px;}
+
+}
