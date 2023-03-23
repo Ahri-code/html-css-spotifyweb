@@ -22,6 +22,8 @@
 
 .bg-semitransparent {background-color: rgba(8, 11, 18, 0.7);}
 
+.bg-greenyellow {background-color: #adff2f;}
+
 /* ------ Color ------ */
 
 .c-gray {color: #606268;}
@@ -32,8 +34,6 @@
 
 .h-adapt {height: calc(100vh - 100px);}
 
-.h-adapt200 {height: calc(100vh - 200px);}
-
 .h-5px {height: 5px;}
 
 .w-250px {width: 250px;}
@@ -41,6 +41,8 @@
 .maxw-800 {max-width: 800px;}
 
 .w-15per {width: 15.5%;}
+
+.w-adapt {width: calc(100% - 250px);}
 
 /* ------ Scroll ------ */
 
@@ -52,7 +54,27 @@
 
 .bc-white {border-color: white;}
 
-/* ------ Box-shadow ------ */
+/* ------ Padding ------ */
+
+.pt-100px {padding-top: calc(100px + 1rem);}
+
+.p-50per {padding: calc(50% - 1.5rem) 0;}
+
+/* ------ Margin ------ */
+
+.mt-small {margin-top: 0.25rem;}
+
+/* ------ Grid ------ */
+
+/* .item1 {grid-area: sidebar;}
+
+.item2 {grid-area: main;}
+
+.grid {
+    display: grid;
+    grid-template-columns: 250px calc(100% - 250px);
+    grid-template-areas: "sidebar main";
+} */
 
 /* --------------- */
 /* -----Aside----- */
@@ -88,7 +110,30 @@ aside hr {border-color: #4d4d4d;}
 /* -----MAIN----- */
 /* -------------- */
 
+/* Nav */
+
+.main-hover:hover .display-none {
+    display: block;
+    margin-bottom: calc(-0.25rem - 5px);
+}
+
+/* Main */
+
 .cards {background-size: cover;}
+
+.cards i {
+    font-size: 3rem;
+    display: none;
+}
+
+.cards:hover i {
+    display: block;
+}
+
+.cards:hover {
+    padding: calc(50% - 1.5rem) 0;
+    opacity: 0.5;
+}
 
 /* Recently played */
 
