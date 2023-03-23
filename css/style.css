@@ -20,7 +20,7 @@
 
 /* ------ Color ------ */
 
-.c-gray {color: #4d4d4d;}
+.c-gray {color: #606268;}
 
 /* ------ Dimension ------ */
 
@@ -33,6 +33,8 @@
 .w-250px {width: 250px;}
 
 .maxw-800 {max-width: 800px;}
+
+.w-15per {width: 15.5%;}
 
 /* ------ Scroll ------ */
 
@@ -71,5 +73,43 @@ aside hr {border-color: #4d4d4d;}
     height: 2rem;
     width: 2rem;
     background-color: #808080;
+    border-radius: 50%;
+}
+
+/* -------------- */
+/* -----MAIN----- */
+/* -------------- */
+
+.cards {background-size: cover;}
+
+/* Recently played */
+
+#card1 {background-image: url(../img/all_out.jpeg);}
+
+#card2 {background-image: url(../img/metal_lifting.jpg);}
+
+#card3 {background-image: url(../img/stranger.jpeg);}
+
+#card4 {background-image: url(../img/aquietplace.jpeg);}
+
+#card5 {background-image: url(../img/split.jpeg);}
+
+#card6 {background-image: url(../img/sinister.jpeg);}
+
+/* Made for you */
+
+#card7 {background-image: url(../img/radar.jpeg);}
+
+#card8 {background-image: url(../img/mixdaily.jpeg);}
+
+/* Artist */
+
+#card9 {
+    background-image: url(../img/youg.jpeg);
+    border-radius: 50%;
+}
+
+#card10 {
+    background-image: url(../img/einaudi.jpeg);
     border-radius: 50%;
 }

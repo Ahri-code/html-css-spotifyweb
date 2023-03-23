@@ -28,6 +28,8 @@ ul {list-style-type: none;}
 
 .pt-05 {padding-top: 0.5rem;}
 
+.pt-100per {padding-top: 100%;}
+
 /* Padding-bottom */
 
 .pb-1 {padding-bottom: 1rem;}
@@ -43,6 +45,10 @@ ul {list-style-type: none;}
 .m-center {margin: 0 auto;}
 
 .m-05-0 {margin: 0.5rem 0;}
+
+/* Margin-right */
+
+.mr-075 {margin-right: 0.75rem;}
 
 /* ------ Border ------ */
 
